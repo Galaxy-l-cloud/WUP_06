@@ -91,3 +91,5 @@ For this set of data we see the p value is 7.704e-05. When looking at out other 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+When looking at both of our sets of variables, we notice that the graphs remain similar except the number of individuals differ and whites were greater in numbers. However we see that after using the chi-squared test and fisher test the p values of the two branches varies but white are still statistically more inclined to favor capitol punishment.
