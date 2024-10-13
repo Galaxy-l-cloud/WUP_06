@@ -68,6 +68,12 @@ The graphical data shows us that the white race's attitude is favored, while the
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~cappun + race, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
 
 
 
