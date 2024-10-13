@@ -65,9 +65,13 @@ Here we see that whites are more in favor of the capitol punishment compared to 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+table1 <- xtabs(~cappun + race, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
-
+The ratio of whites to blacks in favor of cappun is 79:11, while the ratio of whites to blacks who oppose cappun is 69:23. The other races are marginally lower than either whites or blacks.
 
 
 
