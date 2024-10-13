@@ -79,8 +79,13 @@ The ratio of whites to blacks in favor of cappun is 79:11, while the ratio of wh
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-`
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+For this set of data we see the p value is 7.704e-05. When looking at out other data there is quite the difference thus indicating the change in variables. 
 
 
 # Discussion and Conclusion
