@@ -58,7 +58,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+The graphical data shows us that the white race's attitude is favored, while the black and other races attitudes are in favor of opposition.
 
 ## Now with The Most data (fewer variables gives more data points)
 
